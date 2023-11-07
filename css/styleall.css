@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+.w-95{
+    width:95% ;
+    margin: auto;
+}
+.btn{
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(255, 48, 92);
+    border: 1px solid rgb(255, 48, 92);
+    border-radius: 5px;
+    margin: 10px;
+}

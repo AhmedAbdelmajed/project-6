@@ -1,0 +1,301 @@
+.bg-image {
+  background-image: url(../image/slider-01.jpg);
+  height: 100vh;
+  background-size: contain;
+}
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+.nav-bar {
+  background-color: black;
+  justify-content: space-between;
+  padding-top: -5px;
+position: fixed;
+}
+.logo {
+  width: 20%;
+  padding-left: 5px;
+  color: rgb(246, 46, 87);
+}
+.list-nav {
+  width: 60%;
+}
+.list-nav span {
+  color: rgb(141, 31, 54);
+}
+.nav-bar .list-nav ul {
+  justify-content: space-around;
+}
+.nav-bar .list-nav ul a {
+  color: white;
+}
+.list-nav ul a:hover {
+  color: rgb(141, 31, 54);
+}
+.pragraph {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  left: 2%;
+}
+.pragraph h4 {
+  color: white;
+}
+.pragraph h1 {
+  color: rgb(255, 48, 92);
+  font-size: 45px;
+  margin: -5px;
+  font-weight: bolder;
+}
+.pragraph p {
+  color: white;
+}
+/* end section 1 */
+.m-30 {
+  margin-top: 40px;
+}
+.first-all {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+}
+.left {
+  width: 50%;
+  margin-right: -100px;
+}
+.border {
+  width: 300px;
+  height: 400px;
+  border: 7px solid #555555;
+  text-align: center;
+  border-radius: 3px;
+}
+.left .image-first img {
+  width: 300px;
+  height: 400px;
+}
+.image-first {
+  position: absolute;
+  top: 25px;
+  left: 11%;
+}
+
+.first-contant2 {
+  width: 50%;
+  padding: 10px;
+  margin-left: -50px;
+}
+.contant-iteam .left3 {
+  padding-right: 40px;
+}
+.first-button a {
+  color: white;
+}
+.first-contant2 .bold {
+  color: rgb(255, 48, 92);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(255, 48, 92);
+}
+/* end section */
+
+/* start section 3 */
+.portfolio {
+  margin-top: 50px;
+}
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px; 
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  width: 30%;
+}
+.card img{
+    width: 100%;
+}
+.text-portfolio {
+    text-align: center;
+
+}
+.portfolio .text-portfolio h2{
+padding: 10px;
+padding-top: 20px;
+}
+.list-portfolio{
+    justify-content: center;
+gap: 10px;
+margin: 30px;
+}
+.text-portfolio .list-portfolio a{
+  color: black;
+}
+.text-portfolio ul a:hover {
+  color: rgb(141, 31, 54);
+}
+.text-portfolio .list-portfolio .chang
+{
+  color: rgb(141, 31, 54);
+}
+/* end section3  */
+.m-5050{
+  background-color: rgb(241, 241, 241);
+  margin: 50px;
+}
+.m-5050 h1{
+  padding: 50px;
+  text-align: center;
+}
+.all-teams{
+  height: 200px;
+  margin: 50px;
+
+justify-content: center;
+text-align: center;
+}
+.team{
+  width: 23%;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ..... */
+.all-client{
+  position: relative;
+}
+.all-client h1 {
+  text-align: center;
+  padding: 20px;
+
+}
+.client-contant{
+  background-color: rgb(241, 241, 241);
+align-items: center;
+margin: auto;
+  width: 60%;
+  height: 250px;
+  overflow: hidden;
+
+}
+.fram{
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+.client-image{
+
+  width: 30%;
+}
+.client-image img {
+  width: 100%;
+  border-radius: 50%;
+
+}
+.client-card{
+  width: 70%;
+  padding: 20px;
+}
+/* .......... */
+.our-blog{
+  background-color: rgb(241, 241, 241);
+padding-bottom: 50px;
+}
+.our-blog h1{
+  text-align: center;
+padding: 50px 0px;
+margin-top: 30px;
+}
+.our-cards{
+  justify-content: space-evenly;
+
+}
+.our-card{
+width: 25%;
+background-color: white;
+}
+.our-card .our-image img{
+  width: 100%;
+}
+.our-pragraph{
+  padding: 10px;
+}
+.our-pragraph a{
+  color: black;
+}
+.mar-left{
+  margin-left: 70px;
+}
+.mar-right{
+  margin-right: 70px;
+}
+/* .............. */
+.form-contact{
+  margin-top: 40px;
+}
+.form-contact h1 {
+  text-align: center;
+}
+.wid-70{
+  width: 70%;
+  margin: auto;
+}
+.first-form{
+
+  margin-top: 50px;
+  
+}
+.first-form  input{
+width: 100%
+}
+.firt-row{
+  justify-content: space-between;
+}
+.pd{
+  display: inline-block;
+  height: 40px;
+  margin: 20px 0px ;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.firt-row .w-50{
+  width: 48%;
+}
+.first-form  textarea {
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.first-form a{
+  color: white;
+}
+/* ............ */
+.f-end{
+  background-color: black;
+  height: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.f-end  span{
+  color: rgb(199, 50, 81);
+}
